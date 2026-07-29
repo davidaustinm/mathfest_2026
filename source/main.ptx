@@ -10,13 +10,13 @@
   </docinfo>
 
   <article xml:id="shorttitlelowercase">
-    <title>The title of my groundbreaking paper</title>
+    <title>Asking good questions</title>
 
     <xi:include href="./frontmatter.ptx" />
     
-    <xi:include href="./introduction.ptx" />
-    <xi:include href="./section-1.ptx" />
-    <xi:include href="./section-2.ptx" />
+    <xi:include href="./chrissy.ptx" />
+    <xi:include href="./david.ptx" />
+    <xi:include href="./matt.ptx" />
   </article>
 
 </pretext>

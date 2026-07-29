@@ -2,13 +2,30 @@
 <frontmatter>
   <bibinfo>
     <author>
-      <personname>Author X. Lastname</personname>
+      <personname>Chrissy Safranski</personname>
+      <department> Department of  </department>
+      <institution> Franciscan University of Steubenville </institution>
+      <email> CSafranski@franciscan.edu </email>
+    </author>
+    <author>
+      <personname>David Austin</personname>
+      <department> Department of Mathematics </department>
+      <institution> Grand Valley State University </institution>
+      <email> austind@gvsu.edu </email>
+    </author>
+    <author>
+      <personname>Matt Boelkins</personname>
+      <department> Department of Mathematics </department>
+      <institution> Grand Valley State University </institution>
+      <email> boelkinm@gvsu.edu </email>
     </author>
   </bibinfo>
-  
+
+  <!--
   <abstract>
     <p>
       This is the abstract.
     </p>
   </abstract>
+  -->
 </frontmatter>
