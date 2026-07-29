@@ -7,7 +7,7 @@ var ptx_lunr_docs = [
   "type": "Front Matter",
   "number": "",
   "title": "Front Matter",
-  "body": "  Chrissy Safranski Department of Franciscan University of Steubenville CSafranski@franciscan.edu  David Austin Department of Mathematics Grand Valley State University austind@gvsu.edu  Matt Boelkins Department of Mathematics Grand Valley State University boelkinm@gvsu.edu       "
+  "body": "  Chrissy Safranski Department of Mathematics Franciscan University of Steubenville CSafranski@franciscan.edu  David Austin Department of Mathematics Grand Valley State University austind@gvsu.edu  Matt Boelkins Department of Mathematics Grand Valley State University boelkinm@gvsu.edu       "
 },
 {
   "id": "chrissy",
