@@ -1,0 +1,15 @@
+openDate          = 01/01/2027 at 12:00am
+dueDate           = 12/31/2027 at 10:00pm
+answerDate        = 12/31/2027 at 10:00pm
+paperHeaderFile   = Asking_good_questions/header/Asking_good_questions.pg
+screenHeaderFile  = Asking_good_questions/header/Asking_good_questions.pg
+description       = Asking good questions
+problemListV2
+problem_start
+source_file = Asking_good_questions/1_1_1.pg
+problem_id = 1
+problem_end
+problem_start
+source_file = Asking_good_questions/1_1_2.pg
+problem_id = 2
+problem_end
