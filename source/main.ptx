@@ -3,8 +3,6 @@
 
   <docinfo>
 
-    <document-id>authorslastnamelowercase-ShortTitleCamelCase</document-id>
-
     <macros>
       \newcommand{\foo}{b^{ar}}
       \newcommand{\vvec}{{\mathbf v}}
@@ -18,6 +16,7 @@
 
     <rename element="investigation" xml:lang="en-US">Investigate!</rename>
     <rename element="proof" xml:lang="en-US">Some background</rename>
+    <rename element="abstract" xml:lang="en-US">Presentation available at</rename>
   </docinfo>
 
   <article xml:id="rich_questions">
