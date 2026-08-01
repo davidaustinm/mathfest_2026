@@ -1,19 +1,248 @@
 <?xml version="1.0" encoding="utf-8"?>
-<section xml:id="david" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>My First Section</title>
+<section xml:id="linear-combs" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Linear independence</title>
   <introduction>
-    <p>Some words</p>
+    <p>
+      A version of this activity appears in
+      <url
+          href="https://understandinglinearalgebra.org/sec-linear-dep.html#sec-linear-dep">
+        Understanding Linear Algebra
+      </url>
+      by David Austin.
+    </p>
+
   </introduction>
-  <subsection xml:id="david-subsection">
-    <title>My First Subsection</title>
-    <p>Some more words</p>
-    <p>foo</p>
-    <figure>
-      <caption>A frog</caption>
-      <image source="frog.jpg" width="50%">
-        <description>A nice-looking frog with a longish description.</description>
-      </image>
-    </figure>
-    <p>Bar: <m>\foo</m></p>
+
+  <objectives>
+    <ul>
+      <li>
+        <p>
+          Strengthen the connection between questions about linear
+          combinations and questions about the consistency of linear
+          systems.
+        </p>
+      </li>
+      <li>
+        <p>
+          Develop a geometric condition that explains when the span of
+          a set of vectors is the same as the span of a proper subsect
+          of those vectors.
+        </p>
+      </li>
+      <li>
+        <p>
+          Determine how the reduced row echelon form of a matrix
+          explains when the span of the columns is the same as the
+          span of a proper subset of those columns.
+        </p>
+      </li>
+    </ul>
+  </objectives>
+
+  <subsection xml:id="linear-comb-subsection">
+    <title>Some background</title>
+
+    <p>
+      At this point of the course, students have encountered linear
+      combinations of vectors and the concept of the span of a set of
+      vectors.  As a reminder, an example of a linear combination of
+      vectors <m>\vvec</m> and <m>\wvec</m> is
+      <md>
+        2\vvec - 3\wvec
+      </md>.
+      Asking whether a given vector is a linear combination
+      of a set of vectors is the same as asking about the consistency
+      of an associated linear system.
+    </p>
+
+    <p>
+      Also, the <term>span</term> of a set of vectors
+      is the set of all linear combinations that can be formed from the
+      vectors.
+    </p>
+
+    <p>
+      The next activity provides a <q>Sage cell</q> as a way for
+      students to explore.  For thos unfamiliar with Sage, some
+      background is provided below.
+    </p>
+
+    <proof>
+      <title>Sage background</title>
+
+      <p>
+        Given vectors <m>\vvec=\twovec23</m> and
+        <m>\wvec=\twovec{-3}4</m>, we can ask whether
+        <m>\twovec{13}{-6}</m> is a linear combination of these vectors
+        by constructing the augmented matrix and finding its reduced row
+        echelon form, such as
+        <md>
+          \left[\begin{array}{cc|c}
+          2 \amp -3 \amp 13 \\
+          3 \amp 4 \amp -6 \\
+          \end{array}\right]
+          \sim
+          \left[\begin{array}{cc|c}
+          1 \amp 0 \amp 2 \\
+          0 \amp 1 \amp -3 \\
+          \end{array}\right]
+        </md>,
+        which tells us that
+        <md>
+          \twovec{13}{-6} =2\vvec - 3\wvec
+        </md>.
+        Sage can perform the row reduction as follows:
+      </p>
+
+      <sage>
+        <input>
+          A = matrix([[2,-3,13],[3,4,-6]])
+          A.rref()
+        </input>
+      </sage>
+    </proof>
   </subsection>
+
+  <worksheet>
+    <title>Introduction to linear independence</title>
+
+    <activity>
+
+      <introduction>
+        <p>We will begin by exploring the span of two sets of
+        vectors using the following Sage cell.</p>
+        <sage>
+          <input>
+          </input>
+        </sage>
+      </introduction>
+
+      <task workspace="1in">
+        <statement>
+          <p>
+            Consider the set of vectors
+            <md>\vvec_1=\threevec0{-1}2,~~~~
+            \vvec_2=\threevec31{-1},~~~~
+            \vvec_3=\threevec201</md>.
+            Is it possible to write the vector
+            <m>\threevec310</m> as a linear combination of these
+            vectors?  If so, how can it be written as a linear combination?
+          </p>
+
+          <p>
+            How about the vector <m>\threevec311</m>?
+          </p>
+        </statement>
+      </task>
+
+      <task workspace="1in">
+        <statement>
+          <p>Express these results by writing a sentence or two using
+          the concept of <em>span</em>.
+          </p>
+        </statement>
+      </task>
+
+      <task workspace="1in">
+        <statement>
+          <p>
+            Find the reduced row echelon form of the matrix <m>A</m> whose
+            columns are <m>\vvec_1</m>, <m>\vvec_2</m>, and
+            <m>\vvec_3</m>:
+            <md>
+              A = \begin{bmatrix}\vvec_1 \amp \vvec_2 \amp \vvec_3
+              \end{bmatrix}
+            </md>.
+            What does this tell us about the span of
+            the set of these vectors; in particular, is every vector
+            in <m>\real^3</m> in the span of this set of vectors?
+          </p>
+        </statement>
+      </task>
+
+      <task workspace="1in">
+        <statement>
+          <p>
+            We now consider the set of vectors
+            <md>\wvec_1=\threevec0{-1}2,~~~~
+            \wvec_2=\threevec31{-1},~~~~
+            \wvec_3=\threevec301</md>.
+            Is it possible to write the vector
+            <m>\threevec310</m> as a linear combination of these
+            vectors?  If so, how can it be written as a linear combination?
+          </p>
+
+          <p>
+            How about the vector <m>\threevec311</m>?
+          </p>
+        </statement>
+      </task>
+
+      <task workspace="1in">
+        <statement>
+          <p>
+            Find the reduced row echelon form of the matrix <m>B</m> whose
+            columns are <m>\wvec_1</m>, <m>\wvec_2</m>, and
+            <m>\wvec_3</m>:
+            <md>
+              B = \begin{bmatrix}\vvec_1 \amp \vvec_2 \amp \vvec_3
+              \end{bmatrix}
+            </md>.
+            What does this tell us about the span of
+            the set of these vectors; in particular, is every vector
+            in <m>\real^3</m> in the span of this set of vectors?
+          </p>
+        </statement>
+      </task>
+
+      <task workspace="1in">
+        <statement>
+          <p>
+            We have now considered two sets of three vectors in
+            <m>\real^3</m>.  In one case, the span is <m>\real^3</m>
+            and in the other case, it is not.  We would like to
+            understand the difference in these two examples.
+          </p>
+
+          <p>
+            Are you able to write <m>\vvec_3</m> as a linear
+            combination of <m>\vvec_1</m> and <m>\vvec_2</m>.  How
+            does the reduced row echelon form of <m>A</m> help us
+            answer this question?
+          </p>
+
+          <p>
+            Are you able to write <m>\wvec_3</m> as a linear
+            combination of <m>\wvec_1</m> and <m>\wvec_2</m>.  How
+            does the reduced row echelon form of <m>B</m> help us
+            answer this question?
+          </p>
+        </statement>
+      </task>
+
+      <task workspace="1in">
+        <statement>
+          <p>
+            Explain why a linear combination of the vectors
+            <m>\wvec_1</m>, <m>\wvec_2</m>, and <m>\wvec_3</m> can be
+            rewritten as a linear combination of <m>\wvec_1</m> and
+            <m>\wvec_2</m> alone.
+          </p>
+        </statement>
+      </task>
+
+      <task workspace="1in">
+        <statement>
+          <p>
+            Explain why
+            <md>
+              \laspan{\wvec_1,\wvec_2,\wvec_3} =
+              \laspan{\wvec_1,\wvec_2}
+            </md>.
+          </p>
+        </statement>
+      </task>
+
+    </activity>
+  </worksheet>
 </section>
