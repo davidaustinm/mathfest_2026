@@ -98,7 +98,7 @@
           </prefigure>
         </image>
         <p>
-          If you and a friend each pick a different spinner and spin them, we can consider the nine possible outcomes.  For example, between spinners <m>A</m> and <m>B</m>, the outcomes are <me>(2,1), (2,6), (2,8), (4,1), (4,6), (4,8), (9,1), (9,6), (9,8)</me>.  This suggests that spinner <m>A</m> will win five out of nine times.
+          If you and a friend each pick a different spinner and spin them, we can consider the nine possible outcomes.  For example, between spinners <m>A</m> and <m>B</m>, the outcomes are <md>(2,1), (2,6), (2,8), (4,1), (4,6), (4,8), (9,1), (9,6), (9,8)</md>.  This suggests that spinner <m>A</m> will win five out of nine times.
         </p>
 
         <p>
@@ -227,10 +227,10 @@
             When you divide a multiple of 7 by 7, you get a whole number.  If you divide another number by 7, you can either write the result as a decimal or as a quotient and a remainder.  For example, <m>19 \div 7</m> is <m>2</m> with a remainder of 5, since we can write <m>19 = 2\cdot 7 + 5</m>.  The remainder is also called the <term>modulus</term>.  When programming in python (and many other languages), the modulus operator is written as <c>%</c>.  For example, <c>19 % 7</c> is <c>5</c>.  Try this out for a few numbers.
           </p>
           <program interactive="activecode" language="python" label="mod7">
-            <input>
+            <code>
               a = 19
               print(a % 7)
-            </input>
+            </code>
           </program>
         </introduction>
         <webwork>
