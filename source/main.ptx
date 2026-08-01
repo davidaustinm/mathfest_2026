@@ -20,7 +20,7 @@
     <rename element="proof" xml:lang="en-US">Some background</rename>
   </docinfo>
 
-  <article xml:id="shorttitlelowercase">
+  <article xml:id="rich_questions">
     <title>Asking rich questions</title>
 
     <xi:include href="./frontmatter.ptx" />
