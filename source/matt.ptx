@@ -1,19 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <section xml:id="matt" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title>My First Section</title>
+  <title>The tangent line approximation</title>
   <introduction>
-    <p>Some words</p>
+    <p>The exercises here are from <url href="https://mattboelkins.github.io/active-calculus-single-mbx/doenet/sec-1-8-tan-line-approx.html">Section 1.8</url> of the Doenet version of <em>Active Calculus</em>.</p>
   </introduction>
-  <subsection xml:id="matt-subsection">
-    <title>My First Subsection</title>
-    <p>Some more words</p>
-    <p>foo</p>
-    <figure>
-      <caption>A frog</caption>
-      <image source="frog.jpg" width="50%">
-        <description>A nice-looking frog with a longish description.</description>
-      </image>
-    </figure>
-    <p>Bar: <m>\foo</m></p>
-  </subsection>
+
+  <exercises xmlns:xi="http://www.w3.org/2001/XInclude">
+
+    <exercise xml:id="ez-1-8-doenet-2">
+      <title>Using the tangent line approximation given a graph of <m>f</m> and <m>L</m></title>
+      <dynamic>
+        <statement>
+          <interactive label="doe-int-ex-1-8-2" platform="doenetml">
+            <slate surface="doenetml">
+              <xi:include href="doenet/ez-1-8-D-2.doenetml" parse="text"/>
+            </slate>
+          </interactive>
+        </statement>
+      </dynamic>
+      <static/>
+    </exercise>
+
+    <exercise xml:id="ez-1-8-doenet-1">
+      <title>Using a tangent line to approximate values of <m>g</m> when given a graph for <m>g'</m></title>
+      <dynamic>
+        <statement>
+          <interactive label="doe-int-ex-1-8-1" platform="doenetml">
+            <slate surface="doenetml">
+              <xi:include href="doenet/ez-1-8-D-1.doenetml" parse="text"/>
+            </slate>
+          </interactive>
+        </statement>
+      </dynamic>
+      <static/>
+    </exercise>
+
+  </exercises>
 </section>
