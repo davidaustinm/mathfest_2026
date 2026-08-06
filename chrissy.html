@@ -25,7 +25,6 @@ hasWebworkReps: true,
 hasSage: true,
 isReact: false,
 htmlPresentation: false,
-lang: "en-US",
 });
 </script><script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -33,7 +32,7 @@ lang: "en-US",
 <meta name="twitter:title" content="Asking rich questions">
 <meta property="og:title" content="Asking rich questions">
 <meta name="twitter:card" content="summary">
-<script src="_static/pretext/js/jquery.min.js"></script><script src="_static/pretext/js/dist/pretext-core.js?v=2.47"></script><script src="_static/pretext/js/dist/pretext-read-aloud.js?v=2.47"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<script src="_static/pretext/js/jquery.min.js"></script><script src="_static/pretext/js/dist/pretext-core.js?v=2.45"></script><!--** eBookCongig is necessary to configure interactive       **-->
 <!--** Runestone components to run locally in reader's browser **-->
 <!--** No external communication:                              **-->
 <!--**     log level is 0, Runestone Services are disabled     **-->
@@ -82,17 +81,7 @@ eBookConfig.enable_chatcodes =  false;
 <div id="ptx-search-empty" class="ptx-search-empty"><span>No results.</span></div>
 <ol id="ptx-search-results" class="ptx-search-results"></ol></dialog>
 </div>
-<span class="nav-other-controls"><button id="ptx-read-aloud-button" class="ptx-read-aloud-button button" title="Read aloud" aria-expanded="false"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf1bc;</span><span class="name">Read aloud</span></button><div id="ptx-read-aloud-player" class="ptx-read-aloud-player" hidden="hidden" role="group" aria-label="Read aloud">
-<button id="ptx-read-aloud-prev" class="button" title="Previous sentence"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe045;</span></button><button id="ptx-read-aloud-toggle" class="ptx-read-aloud-toggle button" title="Play"><span class="ptx-read-aloud-icon-play"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe037;</span></span><span class="ptx-read-aloud-icon-pause"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe034;</span></span></button><button id="ptx-read-aloud-next" class="button" title="Next sentence"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe044;</span></button><a id="ptx-read-aloud-continue" class="ptx-read-aloud-continue button" hidden="hidden">Continue<span class="icon material-symbols-outlined" aria-hidden="true">&#xe037;</span></a><button id="ptx-read-aloud-settings-button" class="ptx-read-aloud-settings-button button" title="Reading settings"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe429;</span></button>
-</div>
-<dialog class="ptx-dialog ptx-read-aloud-settings-popup" id="ptx-read-aloud-settings-popup"><div class="ptx-readability-options-popup-controls">
-<h2 class="heading">Read aloud settings</h2>
-<button class="ptx-read-aloud-settings-close-button button" id="ptx-read-aloud-settings-close-button" title="Close"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cd;</span></button>
-</div>
-<div class="ptx-readability-options-group">
-<label for="ptx-read-aloud-voice"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe91f;</span><span>Voice</span></label><select id="ptx-read-aloud-voice"></select><label class="ptx-readability-slider-label" for="ptx-read-aloud-rate"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe9e4;</span><span>Reading speed</span><output id="ptx-read-aloud-rate-value" for="ptx-read-aloud-rate">1×</output></label><input type="range" id="ptx-read-aloud-rate" min="0.5" max="2" step="0.1" value="1"><label for="ptx-read-aloud-asides"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d7;</span><span>Collapsed content</span></label><select id="ptx-read-aloud-asides"><option value="skip">Announce, do not read</option>
-<option value="read">Read automatically</option></select><label for="ptx-read-aloud-autoscroll"><input type="checkbox" id="ptx-read-aloud-autoscroll" checked><span>Follow along (auto-scroll)</span></label><label for="ptx-read-aloud-autocontinue"><input type="checkbox" id="ptx-read-aloud-autocontinue"><span>Continue to the next page automatically</span></label>
-</div></dialog><button id="ptx-readability-options-button" class="ptx-readability-options-button button" title="Readability settings"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf6f1;</span><span class="name">Readability settings</span></button><dialog class="ptx-dialog ptx-readability-options-popup" id="ptx-readability-options-popup"><div class="ptx-readability-options-popup-controls">
+<span class="nav-other-controls"><button id="ptx-readability-options-button" class="ptx-readability-options-button button" title="Readability settings"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf6f1;</span><span class="name">Readability settings</span></button><dialog class="ptx-dialog ptx-readability-options-popup" id="ptx-readability-options-popup"><div class="ptx-readability-options-popup-controls">
 <h2 class="heading">Readability settings</h2>
 <button class="ptx-readability-options-close-button button" id="ptx-readability-options-close-button" title="Close"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cd;</span></button>
 </div>
@@ -110,7 +99,7 @@ eBookConfig.enable_chatcodes =  false;
 <legend>Assistive technologies</legend>
 <label for="ptx-readability-accessible-permalinks"><input type="checkbox" id="ptx-readability-accessible-permalinks"><span>🔗</span><span>Expose permalinks</span></label>
 </fieldset>
-<div class="ptx-readability-options-group"><button type="button" class="ptx-readability-reset-button button" id="ptx-readability-reset-button"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf053;</span><span class="name">Reset All</span></button></div></dialog></span><span class="treebuttons"><a class="previous-button button" href="rich_questions-2.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="rich_questions.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="linear-combs.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+<div class="ptx-readability-options-group"><button type="button" class="ptx-readability-reset-button button" id="ptx-readability-reset-button"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf053;</span><span class="name">Reset All</span></button></div></dialog></span><span class="treebuttons"><a class="previous-button button" href="prompt-1.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="rich_questions.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="linear-combs.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
 </div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\foo}{b^{ar}}
 \newcommand{\vvec}{{\mathbf v}}
 \newcommand{\wvec}{{\mathbf w}}
@@ -130,23 +119,30 @@ eBookConfig.enable_chatcodes =  false;
 <div class="toc-title-box"><a href="rich_questions-2.html" class="internal"><span class="title">Front Matter</span></a></div>
 <ul id="ptx-toc-group-rich_questions-2" class="structural toc-item-list"><li class="toc-item toc-abstract"><div class="toc-title-box"><a href="rich_questions-2.html#rich_questions-2-3" class="internal"><span class="title">Presentation available at</span></a></div></li></ul>
 </li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="introduction.html" class="internal"><span class="codenumber">1</span> <span class="title">Introduction and Welcome</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="prompt-1.html" class="internal"><span class="codenumber">2</span> <span class="title">Activity</span></a></div></li>
 <li class="toc-item toc-section contains-active">
-<div class="toc-title-box"><a href="chrissy.html" class="internal"><span class="codenumber">1</span> <span class="title">Exploring Relations</span></a></div>
+<div class="toc-title-box"><a href="chrissy.html" class="internal"><span class="codenumber">3</span> <span class="title">Exploring Relations</span></a></div>
 <ul class="structural toc-item-list active" id="ptx-toc-group-chrissy"><li class="toc-item toc-subsection">
-<div class="toc-title-box"><a href="chrissy.html#gt-relations-section-previw" class="internal"><span class="codenumber">1.1</span> <span class="title">Section Preview</span></a></div>
-<ul id="ptx-toc-group-gt-relations-section-previw" class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chrissy.html#PA-gt-relations" class="internal"><span class="codenumber">1.1</span> <span class="title">Preview Activity</span></a></div></li></ul>
+<div class="toc-title-box"><a href="chrissy.html#gt-relations-section-previw" class="internal"><span class="codenumber">3.1</span> <span class="title">Section Preview</span></a></div>
+<ul id="ptx-toc-group-gt-relations-section-previw" class="structural toc-item-list"><li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="chrissy.html#PA-gt-relations" class="internal"><span class="codenumber">3.1</span> <span class="title">Preview Activity</span></a></div></li></ul>
 </li></ul>
 </li>
 <li class="toc-item toc-section">
-<div class="toc-title-box"><a href="linear-combs.html" class="internal"><span class="codenumber">2</span> <span class="title">Linear independence</span></a></div>
+<div class="toc-title-box"><a href="linear-combs.html" class="internal"><span class="codenumber">4</span> <span class="title">Linear independence</span></a></div>
 <ul id="ptx-toc-group-linear-combs" class="structural toc-item-list">
-<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="linear-combs.html#linear-comb-subsection" class="internal"><span class="codenumber">2.1</span> <span class="title">Some background</span></a></div></li>
-<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="linear-combs.html#linear-combs-5" class="internal"><span class="codenumber">2.2</span> <span class="title">Introduction to linear independence</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="linear-combs.html#linear-comb-subsection" class="internal"><span class="codenumber">4.1</span> <span class="title">Some background</span></a></div></li>
+<li class="toc-item toc-worksheet"><div class="toc-title-box"><a href="linear-combs.html#linear-combs-5" class="internal"><span class="codenumber">4.2</span> <span class="title">Introduction to linear independence</span></a></div></li>
 </ul>
 </li>
 <li class="toc-item toc-section">
-<div class="toc-title-box"><a href="matt.html" class="internal"><span class="codenumber">3</span> <span class="title">The tangent line approximation</span></a></div>
-<ul id="ptx-toc-group-matt" class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="matt.html#matt-3" class="internal"><span class="codenumber">3</span> <span class="title">Exercises</span></a></div></li></ul>
+<div class="toc-title-box"><a href="matt.html" class="internal"><span class="codenumber">5</span> <span class="title">The tangent line approximation</span></a></div>
+<ul id="ptx-toc-group-matt" class="structural toc-item-list"><li class="toc-item toc-exercises"><div class="toc-title-box"><a href="matt.html#matt-3" class="internal"><span class="codenumber">5</span> <span class="title">Exercises</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="prompt-2.html" class="internal"><span class="codenumber">6</span> <span class="title">Discussion</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="resources.html" class="internal"><span class="codenumber">7</span> <span class="title">Resources</span></a></div>
+<ul id="ptx-toc-group-resources" class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a href="resources.html#subsec-sources" class="internal"><span class="codenumber">7.1</span> <span class="title">Links to resources</span></a></div></li></ul>
 </li>
 </ul></nav></div>
 <main class="ptx-main"><div id="ptx-content" class="ptx-content">
@@ -179,7 +175,7 @@ eBookConfig.enable_chatcodes =  false;
 </div>
 <section class="section" id="chrissy">
 <h1 class="heading hide-type">
-<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Exploring Relations</span>
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Exploring Relations</span>
 </h1>
 <section class="introduction" id="chrissy-2">
 <div class="para" id="chrissy-2-1">This is from <a class="external" href="https://runestone.academy/ns/books/published/dmoi-4/sec_gt-relations.html?mode=browsing" target="_blank">Discrete Mathematics: An Open Introduction, 4th Edition</a> by Oscar Levin.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#chrissy-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
@@ -193,27 +189,27 @@ eBookConfig.enable_chatcodes =  false;
 <li id="chrissy-3-2-1">
 <div class="para" id="chrissy-3-2-1-1">Explain the relationship between a graph and a relation.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#chrissy-3-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Objective 1.1"><a tabindex="-1" href="#chrissy-3-2-1" title="Copy heading and permalink for Objective 1.1" aria-label="Copy heading and permalink for Objective 1.1">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Objective 3.1"><a tabindex="-1" href="#chrissy-3-2-1" title="Copy heading and permalink for Objective 3.1" aria-label="Copy heading and permalink for Objective 3.1">🔗</a></div>
 </li>
 <li id="chrissy-3-2-2">
 <div class="para" id="chrissy-3-2-2-1">Determine whether a relation is reflexive, symmetric, or transitive.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#chrissy-3-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Objective 1.2"><a tabindex="-1" href="#chrissy-3-2-2" title="Copy heading and permalink for Objective 1.2" aria-label="Copy heading and permalink for Objective 1.2">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Objective 3.2"><a tabindex="-1" href="#chrissy-3-2-2" title="Copy heading and permalink for Objective 3.2" aria-label="Copy heading and permalink for Objective 3.2">🔗</a></div>
 </li>
 <li id="chrissy-3-2-3">
 <div class="para" id="chrissy-3-2-3-1">Use an equivalence relation to partition a set and use a partition to define an equivalence relation.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#chrissy-3-2-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Objective 1.3"><a tabindex="-1" href="#chrissy-3-2-3" title="Copy heading and permalink for Objective 1.3" aria-label="Copy heading and permalink for Objective 1.3">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Objective 3.3"><a tabindex="-1" href="#chrissy-3-2-3" title="Copy heading and permalink for Objective 3.3" aria-label="Copy heading and permalink for Objective 3.3">🔗</a></div>
 </li>
 </ol>
-<div class="autopermalink" aria-hidden="true" data-description="Objectives 1"><a tabindex="-1" href="#chrissy-3" title="Copy heading and permalink for Objectives 1" aria-label="Copy heading and permalink for Objectives 1">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Objectives 3"><a tabindex="-1" href="#chrissy-3" title="Copy heading and permalink for Objectives 3" aria-label="Copy heading and permalink for Objectives 3">🔗</a></div>
 </article>
 <section class="subsection" id="gt-relations-section-previw">
 <h2 class="heading hide-type">
-<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Section Preview</span>
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Section Preview</span>
 </h2>
 <article class="investigation project-like" id="gt-relations-section-previw-2"><h3 class="heading">
-<span class="type">Investigate!</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">1.1</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
+<span class="type">Investigate!</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">3.1</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
 </h3>
 <div class="para" id="gt-relations-section-previw-2-1-1">Consider the three spinners below.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#gt-relations-section-previw-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>  <div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/prefigure/prefigure-dmoi-three-spinners.svg" role="img" class="contained" alt="Three spinners"></div> 
@@ -229,7 +225,7 @@ eBookConfig.enable_chatcodes =  false;
 </div> 
 <div class="para" id="gt-relations-section-previw-2-1-4">Compare the other combinations of spinners.  Which spinner is best?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#gt-relations-section-previw-2-1-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Investigate! 1.1"><a tabindex="-1" href="#gt-relations-section-previw-2" title="Copy heading and permalink for Investigate! 1.1" aria-label="Copy heading and permalink for Investigate! 1.1">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Investigate! 3.1"><a tabindex="-1" href="#gt-relations-section-previw-2" title="Copy heading and permalink for Investigate! 3.1" aria-label="Copy heading and permalink for Investigate! 3.1">🔗</a></div>
 </article>
 <div class="para" id="gt-relations-section-previw-3">In this section, we will explore a generalization of a graph, called a <dfn class="terminology">relation</dfn>.  We will see how a relation can be represented by a graph and how a graph can be used to represent a relation.  We will also consider some properties that a relation might have, and how these properties can be used to classify relations into different types.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#gt-relations-section-previw-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
@@ -301,7 +297,7 @@ eBookConfig.enable_chatcodes =  false;
 </ul>
 <div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-pa-gt-relations-1-1-2-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Task 1.1.1.a"><a tabindex="-1" href="#extracted-pa-gt-relations-1-1-2" title="Copy heading and permalink for Task 1.1.1.a" aria-label="Copy heading and permalink for Task 1.1.1.a">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 3.1.1.a"><a tabindex="-1" href="#extracted-pa-gt-relations-1-1-2" title="Copy heading and permalink for Task 3.1.1.a" aria-label="Copy heading and permalink for Task 3.1.1.a">🔗</a></div>
 </article>
 <article class="task exercise-like" id="extracted-pa-gt-relations-1-1-3"><h5 class="heading"><span class="codenumber">(b)</span></h5>
 <div class="para" id="extracted-pa-gt-relations-1-1-3-1-1">Which of the following statements are true about the <span class="process-math">\(\sim\)</span> relation in this case?<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-pa-gt-relations-1-1-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
@@ -338,7 +334,7 @@ eBookConfig.enable_chatcodes =  false;
 </ul>
 <div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-pa-gt-relations-1-1-3-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Task 1.1.1.b"><a tabindex="-1" href="#extracted-pa-gt-relations-1-1-3" title="Copy heading and permalink for Task 1.1.1.b" aria-label="Copy heading and permalink for Task 1.1.1.b">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 3.1.1.b"><a tabindex="-1" href="#extracted-pa-gt-relations-1-1-3" title="Copy heading and permalink for Task 3.1.1.b" aria-label="Copy heading and permalink for Task 3.1.1.b">🔗</a></div>
 </article>
 <article class="task exercise-like" id="extracted-pa-gt-relations-1-1-4"><h5 class="heading"><span class="codenumber">(c)</span></h5>
 <div class="para" id="extracted-pa-gt-relations-1-1-4-1-1">We will write <span class="process-math">\([a]\)</span> for the set of all numbers related to <span class="process-math">\(a\text{.}\)</span>  For example, <span class="process-math">\([7] = \{7, 14, 21, 28\}\text{.}\)</span>  Find each of the following:<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-pa-gt-relations-1-1-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
@@ -400,8 +396,8 @@ eBookConfig.enable_chatcodes =  false;
 </ul>
 <div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-pa-gt-relations-1-1-4-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Task 1.1.1.c"><a tabindex="-1" href="#extracted-pa-gt-relations-1-1-4" title="Copy heading and permalink for Task 1.1.1.c" aria-label="Copy heading and permalink for Task 1.1.1.c">🔗</a></div>
-</article><div class="autopermalink" aria-hidden="true" data-description="Worksheet Exercise 1.1.1"><a tabindex="-1" href="#pa-gt-relations-1" title="Copy heading and permalink for Worksheet Exercise 1.1.1" aria-label="Copy heading and permalink for Worksheet Exercise 1.1.1">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 3.1.1.c"><a tabindex="-1" href="#extracted-pa-gt-relations-1-1-4" title="Copy heading and permalink for Task 3.1.1.c" aria-label="Copy heading and permalink for Task 3.1.1.c">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Worksheet Exercise 3.1.1"><a tabindex="-1" href="#pa-gt-relations-1" title="Copy heading and permalink for Worksheet Exercise 3.1.1" aria-label="Copy heading and permalink for Worksheet Exercise 3.1.1">🔗</a></div>
 </article>
 <article class="exercise exercise-like" id="pa-gt-relations-2"><h4 class="heading"><span class="codenumber">2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h4>
 <div class="introduction" id="pa-gt-relations-2-1">
@@ -414,7 +410,7 @@ print(a % 7)
 <article class="task exercise-like" id="extracted-pa-gt-relations-2-1-1"><h5 class="heading"><span class="codenumber">(a)</span></h5>
 <div class="para" id="extracted-pa-gt-relations-2-1-1-1-1">Find all the numbers <span class="process-math">\(a\)</span> between 1 and 31 that are <span class="process-math">\(5 \mod 7\text{.}\)</span>  That is, find all <span class="process-math">\(a\)</span> such that <code class="code-inline tex2jax_ignore">a % 7 = 5</code>.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-pa-gt-relations-2-1-1-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Task 1.1.2.a"><a tabindex="-1" href="#extracted-pa-gt-relations-2-1-1" title="Copy heading and permalink for Task 1.1.2.a" aria-label="Copy heading and permalink for Task 1.1.2.a">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 3.1.2.a"><a tabindex="-1" href="#extracted-pa-gt-relations-2-1-1" title="Copy heading and permalink for Task 3.1.2.a" aria-label="Copy heading and permalink for Task 3.1.2.a">🔗</a></div>
 </article>
 <article class="task exercise-like" id="extracted-pa-gt-relations-2-1-2"><h5 class="heading"><span class="codenumber">(b)</span></h5>
 <div class="para" id="extracted-pa-gt-relations-2-1-2-1-1">Since the modulus is a function, each number has exactly one modulus when divided by 7.  This means that the moduli partition the numbers from 1 to 31: every number belongs to exactly one of the sets of numbers with a particular modulus.  We have already found the set for modulus 5.  Find the other sets.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-pa-gt-relations-2-1-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
@@ -460,7 +456,7 @@ print(a % 7)
 </ul>
 <div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-pa-gt-relations-2-1-2-1-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Task 1.1.2.b"><a tabindex="-1" href="#extracted-pa-gt-relations-2-1-2" title="Copy heading and permalink for Task 1.1.2.b" aria-label="Copy heading and permalink for Task 1.1.2.b">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 3.1.2.b"><a tabindex="-1" href="#extracted-pa-gt-relations-2-1-2" title="Copy heading and permalink for Task 3.1.2.b" aria-label="Copy heading and permalink for Task 3.1.2.b">🔗</a></div>
 </article>
 <article class="task exercise-like" id="extracted-pa-gt-relations-2-1-3"><h5 class="heading"><span class="codenumber">(c)</span></h5>
 <div class="para" id="extracted-pa-gt-relations-2-1-3-1-1">We can use the moduli to define a relation on the numbers from 1 to 31.  We will say that <span class="process-math">\(a \sim b\)</span> if <code class="code-inline tex2jax_ignore">a % 7 = b % 7</code>.  In other words, two numbers are related if they belong to the same set of the partition we found above.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-pa-gt-relations-2-1-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
@@ -520,15 +516,15 @@ print(a % 7)
 </ul>
 <div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#extracted-pa-gt-relations-2-1-3-1-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
 </div>
-<div class="autopermalink" aria-hidden="true" data-description="Task 1.1.2.c"><a tabindex="-1" href="#extracted-pa-gt-relations-2-1-3" title="Copy heading and permalink for Task 1.1.2.c" aria-label="Copy heading and permalink for Task 1.1.2.c">🔗</a></div>
-</article><div class="autopermalink" aria-hidden="true" data-description="Worksheet Exercise 1.1.2"><a tabindex="-1" href="#pa-gt-relations-2" title="Copy heading and permalink for Worksheet Exercise 1.1.2" aria-label="Copy heading and permalink for Worksheet Exercise 1.1.2">🔗</a></div>
-</article><div class="autopermalink" aria-hidden="true" data-description="Worksheet 1.1: Preview Activity"><a tabindex="-1" href="#PA-gt-relations" title="Copy heading and permalink for Worksheet 1.1: Preview Activity" aria-label="Copy heading and permalink for Worksheet 1.1: Preview Activity">🔗</a></div>
-</section><div class="autopermalink" aria-hidden="true" data-description="Subsection 1.1: Section Preview"><a tabindex="-1" href="#gt-relations-section-previw" title="Copy heading and permalink for Subsection 1.1: Section Preview" aria-label="Copy heading and permalink for Subsection 1.1: Section Preview">🔗</a></div>
-</section><div class="autopermalink" aria-hidden="true" data-description="Section 1: Exploring Relations"><a tabindex="-1" href="#chrissy" title="Copy heading and permalink for Section 1: Exploring Relations" aria-label="Copy heading and permalink for Section 1: Exploring Relations">🔗</a></div>
+<div class="autopermalink" aria-hidden="true" data-description="Task 3.1.2.c"><a tabindex="-1" href="#extracted-pa-gt-relations-2-1-3" title="Copy heading and permalink for Task 3.1.2.c" aria-label="Copy heading and permalink for Task 3.1.2.c">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Worksheet Exercise 3.1.2"><a tabindex="-1" href="#pa-gt-relations-2" title="Copy heading and permalink for Worksheet Exercise 3.1.2" aria-label="Copy heading and permalink for Worksheet Exercise 3.1.2">🔗</a></div>
+</article><div class="autopermalink" aria-hidden="true" data-description="Worksheet 3.1: Preview Activity"><a tabindex="-1" href="#PA-gt-relations" title="Copy heading and permalink for Worksheet 3.1: Preview Activity" aria-label="Copy heading and permalink for Worksheet 3.1: Preview Activity">🔗</a></div>
+</section><div class="autopermalink" aria-hidden="true" data-description="Subsection 3.1: Section Preview"><a tabindex="-1" href="#gt-relations-section-previw" title="Copy heading and permalink for Subsection 3.1: Section Preview" aria-label="Copy heading and permalink for Subsection 3.1: Section Preview">🔗</a></div>
+</section><div class="autopermalink" aria-hidden="true" data-description="Section 3: Exploring Relations"><a tabindex="-1" href="#chrissy" title="Copy heading and permalink for Section 3: Exploring Relations" aria-label="Copy heading and permalink for Section 3: Exploring Relations">🔗</a></div>
 </section>
 </div>
 <div id="ptx-content-footer" class="ptx-content-footer">
-<a class="previous-button button" href="rich_questions-2.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="linear-combs.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+<a class="previous-button button" href="prompt-1.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="linear-combs.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
 </div>
 <div id="ptx-page-footer" class="ptx-page-footer">
