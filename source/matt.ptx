@@ -2,7 +2,7 @@
 <section xml:id="matt" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>The tangent line approximation</title>
   <introduction>
-    <p>The exercises here are from <url href="https://mattboelkins.github.io/active-calculus-single-mbx/doenet/sec-1-8-tan-line-approx.html">Section 1.8</url> of the Doenet version of <em>Active Calculus</em>.</p>
+    <p>The exercises that follow here are a subset of those found in <url href="https://runestone.academy/ns/books/published/ac-single-d/sec-1-8-tan-line-approx.html">Section 1.8</url> of the Doenet version of <em>Active Calculus</em>.</p>
   </introduction>
 
   <exercises xmlns:xi="http://www.w3.org/2001/XInclude">

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<section xml:id="resources" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Resources</title>
+  <introduction>
+    <p>
+      Following are some resources that offer collections of rich questions or ideas for how to develop them yourself.
+    </p>
+  </introduction>
+
+  <subsection xml:id="subsec-sources">
+    <title>Links to resources</title>
+    <p>
+      <ul>
+        <li>
+          <p>
+            <em>PRIMUS</em> article by Su Doree: <url href="https://gvsu.edu/s/3Ky">Turning Routine Exercises Into Activities that Teach Inquiry: A Practical Guide</url>
+          </p>
+        </li>
+        <li>
+          <p>
+            Discrete Mathematics textbook: <url href="https://discrete.openmathbooks.org/dmoi4/frontmatter.html">Discrete Mathematics: an open introduction</url>
+          </p>
+        </li>
+        <li>
+          <p>
+            Linear Algebra textbook: <url href="https://understandinglinearalgebra.org/ula.html">Understanding Linear Algebra</url>
+          </p>
+        </li>
+        <li>
+          <p>
+            Calculus textbook: <url href="https://runestone.academy/ns/books/published/ac-single-d/frontmatter.html">Active Calculus Single Variable (Doenet version)</url>
+          </p>
+        </li>
+        <li>
+          <p>
+            IOLA: <url href="https://iola.math.vt.edu/">Inquiry-Oriented Linear Algebra</url>
+          </p>
+        </li>
+        <li>
+          <p>
+            Academy of Inquiry-Based Learning: <url href="https://www.inquirybasedlearning.org/playlist">AIBL blog playlist</url>
+          </p>
+        </li>
+      </ul>
+    </p>
+    
+  </subsection>
+
+
+
+</section>

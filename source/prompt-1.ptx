@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<section xml:id="prompt-1" xmlns:xi="http://www.w3.org/2001/XInclude">
+
+  <title>Activity</title>
+      <p>
+        Choose one of the three sets of questions -- <xref ref="chrissy"/> (discrete math), <xref ref="linear-combs"/> (linear algebra), or <xref ref="matt"/> (calculus).  For the set you choose, strive to work with 1-2 peers and to engage with the student experience of responding to the questions.  As you do so, think about at least one of the following meta-questions:
+
+          <ul>
+            <li>
+              <p>
+                  <em>What might students find helpful and useful</em>? 
+              </p>
+            </li>
+            <li>
+              <p>
+                  <em>What aspects engage student thinking</em>?
+              </p>
+            </li>
+            <li>
+              <p>
+                <em>What might students find frustrating</em>?
+              </p>
+            </li>
+          </ul>
+
+      </p>
+
+</section>
