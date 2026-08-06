@@ -24,9 +24,13 @@
 
     <xi:include href="./frontmatter.ptx" />
 
+    <xi:include href="./introduction.ptx" />
+    <xi:include href="./prompt-1.ptx" />
     <xi:include href="./chrissy.ptx" />
     <xi:include href="./david.ptx" />
     <xi:include href="./matt.ptx" />
+    <xi:include href="./prompt-2.ptx" />
+    <xi:include href="./resources.ptx" />
   </article>
 
 </pretext>
